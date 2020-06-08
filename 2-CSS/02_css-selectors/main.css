@@ -1,0 +1,31 @@
+div, p, h1 {
+    background: #ddd;
+}
+
+p, h1 {
+    background-color: blue;
+}
+
+div p {
+    color: red;
+}
+
+div > p {
+    color: yellow;
+}
+
+div ~ p {
+    color: orange;
+}
+
+div + p {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+#yeah {
+    color: burlywood;
+}
